@@ -309,7 +309,7 @@ const updatedArr = arr1.flatMap(element => element === "🌶" ? [element, "🥵"
 
 console.log(updatedArr)
 
-
+*/
 //EJERCICIO 6
 const arr1 = ["🎴", "🎴", "🎴", "🃏", "🎴", "🎴", "🎴"];
 const updatedArr = arr1.map((element, index, array) => {
@@ -318,4 +318,12 @@ const updatedArr = arr1.map((element, index, array) => {
 
 console.log(updatedArr);
 
+
+
+/*EJERCICIO PÁG 204
+$().ready(() => {
+  const article = $("article");
+  article.html("Modificando el textoxd")
+
+});
 */
