@@ -309,17 +309,20 @@ const updatedArr = arr1.flatMap(element => element === "🌶" ? [element, "🥵"
 
 console.log(updatedArr)
 
-*/
+
 //EJERCICIO 6
-var arr1 = ["🎴", "🎴", "🎴", "🃏", "🎴", "🎴", "🎴"];
-var updatedArr = arr1.map(function (element, index, array) {
-    return (element !== "🃏" && array[index + 1] !== "🃏") ? [element, "🃏"] : element;
+const arr1 = ["🎴", "🎴", "🎴", "🃏", "🎴", "🎴", "🎴"];
+const updatedArr = arr1.map((element, index, array) => {
+  return (element !== "🃏" && array[index + 1] !== "🃏") ? [element, "🃏"] : element;
 }).flat();
+
 console.log(updatedArr);
-/*EJERCICIO PÁG 204
+
+*/
+
+/*EJERCICIO PÁG 204*/
 $().ready(() => {
   const article = $("article");
   article.html("Modificando el textoxd")
 
-});
-*/ 
+}); 1
