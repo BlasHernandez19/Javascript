@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+body .output {
+  margin-top: 30px;
+}
+body .emojis {
+  text-align: center;
+  font-size: 30px;
+}
+body .container1 {
+  border: solid grey;
+}
+body .container1 .botones {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+body .container1 h2 {
+  text-align: center;
+}
+body .container1 .button {
+  margin: 10px;
+}
+body .container1 .input {
+  margin: 10px;
+  width: 40px;
+}
+body .container2 {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */

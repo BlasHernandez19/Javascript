@@ -321,8 +321,15 @@ console.log(updatedArr);
 
 */
 /*EJERCICIO PÁG 204*/
-$().ready(() => {
-    const article = $("article");
-    article.html("Modificando el textoxd");
+const btns = document.querySelectorAll(".button");
+const p = document.querySelector("p");
+btns.forEach((btn) => {
+    btn.onclick = () => {
+        p.classList.toggle("red");
+    };
 });
-1;
+var secondButton = document.querySelectorAll('.button')[1];
+var paragraph = document.getElementById('23');
+secondButton.addEventListener('click', function () {
+    paragraph.classList.toggle('blue');
+});

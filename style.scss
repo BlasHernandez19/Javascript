@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    .output {
+        margin-top: 30px;
+    }
+
+    .emojis {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .container1 {
+        border: solid grey;
+
+        .botones {
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .button {
+
+            margin: 10px;
+        }
+
+        .input {
+            margin: 10px;
+            width: 40px;
+        }
+    }
+
+    .container2 {
+        margin-top: 30px;
+    }
+
+}
