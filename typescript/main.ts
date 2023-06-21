@@ -319,8 +319,8 @@ const updatedArr = arr1.map((element, index, array) => {
 console.log(updatedArr);
 
 */
-
-/*EJERCICIO PÁG 204*/
+/*EJERCICIO PÁG 204
+EJERCICIOS PÁG 205
 const btns = document.querySelectorAll(".button");
 const p = document.querySelector("p");
 
@@ -335,6 +335,7 @@ var paragraph = document.getElementById('23');
 secondButton.addEventListener('click', function () {
   paragraph.classList.toggle('blue');
 });
+*/
 
 
 
